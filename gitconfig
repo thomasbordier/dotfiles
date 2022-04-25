@@ -52,3 +52,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = tbordier.pro@gmail.com
+	name = thomas bordier
