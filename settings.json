@@ -62,7 +62,7 @@
         "**/vendor/**": true
     },
     "git.enabled": false,
-    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+    "python.defaultInterpreterPath": "/Users/thomas/.pyenv/versions/3.8.13/envs/lewagon/bin/python",
     "python.formatting.provider": "yapf",
     "python.terminal.activateEnvironment": false,
     "ruby.lint":
@@ -75,5 +75,9 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Visual Studio Dark"
 }

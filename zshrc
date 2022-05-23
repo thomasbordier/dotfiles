@@ -1,4 +1,4 @@
-ZSH=$HOME/.oh-my-zsh
+#ZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="robbyrussell"
@@ -69,3 +69,22 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+
+#__conda_setup="$('/Users/thomas/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/Users/thomas/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+#        . "/Users/thomas/opt/anaconda3/etc/profile.d/conda.sh"
+#    else
+# #       export PATH="/Users/thomas/opt/anaconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+
+# <<< conda initialize <<<
+
+export PYTHONPATH="/Users/thomas/code/thomasbordier/data-challenges/04-Decision-Science:$PYTHONPATH"
